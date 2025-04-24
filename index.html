@@ -1,5 +1,4 @@
-<!DOCTYPyu3652
-62552555555555555555532655555666666E html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -9,16 +8,10 @@
 </head>
 <body>
   <div class="container">
-
-    <!-- Title Section -->
-    <section id="title-section">
-      
-    </section>
-
-    <!-- Circular Profile Photo -->
+    <!-- Profile Photo -->
     <img src="img\Harsh image .jpg" alt="Harsh Golde" class="profile-pic">
 
-    <!-- Header with Name and Title -->
+    <!-- Header -->
     <header>
       <h1>HARSH GOLDE</h1>
       <p>Electronics & Telecommunication Engineer | B.Tech Student</p>
@@ -33,81 +26,84 @@
       <a href="#contact">Contact</a>
     </nav>
 
-    <!-- About Section -->
+    <!-- About -->
     <section id="about">
       <h2>About Me</h2>
       <p>
-        Hello! I am a B.Tech student in Electronics & Telecommunication Engineering at Savitribai Phule Pune University.
-        Passionate about electronics, PCB design, and microcontroller-based projects, I strive to bring innovation 
-        and efficiency to every project I undertake. I hail from the vibrant Buldhana district and am always eager to learn and grow.
+        Hello! I am a B.Tech student in Electronics & Telecommunication Engineering at SPPU.
+        Passionate about electronics, PCB design, and microcontroller-based projects.
+        I hail from Buldhana district and am always eager to grow.
       </p>
     </section>
 
-    <!-- Projects Section -->
+    <!-- Projects -->
     <section id="projects">
       <h2>Projects</h2>
-      <div class="projects">
-        <div class="project">
-          <h3>NO Ball Detection using Ultra Sonic Senser</h3>
-          <p>
-            A smart bottle that heats and cools water using a Peltier module and heating element, managed by an ESP32 microcontroller.
-          </p>
-        </div>
-        <div class="project">
-          <h3>LED FLASHER CIRCUIT</h3>
-          <p>
-            An 
-          </p>
-        </div>
+      <div class="project">
+        <h3>No Ball Detection using Ultrasonic Sensor</h3>
+        <p>
+          A cricket-focused project using an ultrasonic sensor to detect no-balls in real time.
+        </p>
+      </div>
+      <div class="project">
+        <h3>LED Flasher Circuit</h3>
+        <p>
+          A simple LED flasher using basic components for timing and visual indicators.
+        </p>
       </div>
     </section>
 
-    <!-- Skills Section -->
+    <!-- Skills -->
     <section id="skills" class="skills">
       <h2>Skills</h2>
       <ul>
-        <li>✅Soldering</li>
-        <li>✅PCB Design (KiCad, Altium, Eagle, Proteus)</li>
-        <li>✅Programming Language (C, Python, HTML)</li>
-        <li>✅Microcontrollers (Arduino)</li>
-        <li>✅Team Collaboration</li>
+        <li>✅ Soldering</li>
+        <li>✅ PCB Design (KiCad, Altium, Eagle, Proteus)</li>
+        <li>✅ Programming (C, Python, HTML)</li>
+        <li>✅ Microcontrollers (Arduino)</li>
+        <li>✅ Team Collaboration</li>
       </ul>
     </section>
 
-    <!-- Certifications Section -->
+    <!-- Certifications -->
     <section id="certifications">
       <h2>Certifications</h2>
-      <div class="certifications-container">
-        <div class="certification">
-          <h3>Python-1 certificate </h3>
-          <p>Issued by: Cisco Networking Academy</p>
-          <p>Year: 2025</p>
-          <img src="" alt="Embedded Systems & IoT Certificate" class="cert-image">
-        </div>
-        <div class="certification">
-          <h3>Python-2 certificate</h3>
-          <p>Issued by: Cisco Networking Academy</p>
-          <p>Year: 2025</p>
-          <img src= alt="Embedded Systems & IoT Certificate" class="cert-image">
-        </div>
+      <div class="certification">
+        <h3>Python-1 Certificate</h3>
+        <p>Issued by: Cisco Networking Academy (2025)</p>
+        <a href="https://drive.google.com/file/d/1ry5j7k8sJYyQdV-DojsOe1oRKM_nSrZe/view?usp=sharing" class="download-btn">View</a>
+      </div>
+      <div class="certification">
+        <h3>Python-2 Certificate</h3>
+        <p>Issued by: Cisco Networking Academy (2025)</p>
+        <a href="https://drive.google.com/file/d/1ry5j7k8sJYyQdV-DojsOe1oRKM_nSrZe/view?usp=sharing" class="download-btn">View</a>
+      </div>
+      <div>
+        <a href="https://docs.google.com/document/d/1Y4aVErgqLrqsTq4_EuNjXLSyXZ4HfViRWMps9TYGmXU/edit?usp=sharing" class="download-btn">Download Resume</a>
       </div>
     </section>
-    <section id="certifications">
-    <div>
-      <a href="https://docs.google.com/document/d/1Y4aVErgqLrqsTq4_EuNjXLSyXZ4HfViRWMps9TYGmXU/edit?usp=sharing" class="download-btn" download>Download Resume</a>
-    </div>
-    </section>
-    <form action="https://formsubmit.co/your@email.com" method="POST">
-      <input type="text" name="name" required>
-      <input type="email" name="email" required>
-      <button type="submit">Send</button>
-    </form>
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
+
+    <!-- Contact -->
+    <section id="contact">
       <h2>Contact</h2>
-      <p><strong>✉Email:</strong> <a href="mailto:harshgolde@gmail.com">harshgolde@gmail.com</a></p>
-      <p><strong>🐙GitHub:</strong> <a href="https://github.com/Harsh31-06">https://github.com/Harsh31-06</a></p>
-      <p><strong>📞Phone:</strong> <a href="tel:7057823716">7057823716</a></p>
+      <form action="https://formsubmit.co/your@email.com" method="POST" class="contact__form">
+        <div class="contact__content">
+          <label class="content__label" for="name">Name</label>
+          <input type="text" name="name" id="name" class="contact__input" required>
+        </div>
+        <div class="contact__content">
+          <label class="content__label" for="email">Email</label>
+          <input type="email" name="email" id="email" class="contact__input" required>
+        </div>
+        <div class="contact__content">
+          <label class="content__label" for="message">Message</label>
+          <textarea name="message" id="message" class="contact__input" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="button">Send</button>
+      </form>
+      <p><strong>✉ Email:</strong> <a href="mailto:harshgolde@gmail.com">harshgolde@gmail.com</a></p>
+      <p><strong>🐙 GitHub:</strong> <a href="https://github.com/Harsh31-06">Harsh31-06</a></p>
+      <p><strong>📞 Phone:</strong> <a href="tel:+917057823716">7057823716</a></p>
     </section>
 
     <!-- Footer -->
