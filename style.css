@@ -1,166 +1,173 @@
-/* style.css - Rahul inspired dark + neon style */
+
 
 body {
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #0f0f0f;
-    color: #e0e0e0;
-    line-height: 1.6;
-  }
-  
-  .container {
-    max-width: 1000px;
-    margin: auto;
-    padding: 2rem;
-  }
-  
-  .profile-pic {
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 3px solid #07e0f0;
-    display: block;
-    margin: 2rem auto;
-    box-shadow: 0 0 5px #21d2de;
-  }
-  
-  header {
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-  
-  header h1 {
-    font-size: 2.5rem;
-    color: #30dce8;
-    text-shadow: 0 0 3px #7bb9bd;
-  }
-  
-  header p {
-    font-size: 1.1rem;
-    color: hsl(0, 5%, 70%);
-  }
-  
-  nav {
-    text-align: center;
-    margin-bottom: 3rem;
-  }
-  
-  nav a {
-    color: #00f0ff;
-    margin: 0 1rem;
-    text-decoration: none;
-    font-weight: bold;
-    transition: 0.3s;
-  }
-  
-  nav a:hover {
-    color: #eb2dd8;
-    text-shadow: 0 0 5px #fe00e4;
-  }
-  
-  section {
-    margin-bottom: 3rem;
-  }
-  
-  h2 {
-    font-size: 2rem;
-    color: #b52ca7;
-    border-bottom: 2px solid #9d1690;
-    padding-bottom: 0.5rem;
-    margin-bottom: 1.5rem;
-  }
-  
-  .project, .certification {
-    background: #1a1a1a;
-    border: 1px solid #333;
-    padding: 1rem;
-    border-radius: 10px;
-    margin-bottom: 1rem;
-    box-shadow: 0 0 5px rgba(0, 240, 255, 0.3);
-  }
-  
-  .skills ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .skills li {
-    background: #1f1f1f;
-    border-left: 4px solid #1bafb9;
-    padding: 0.5rem;
-    margin-bottom: 0.5rem;
-    font-weight: 500;
-    border-radius: 4px;
-  }
-  
-  .cert-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-top: 0.5rem;
-  }
-  .download-btn {
-    display: inline-flex;
-    padding: 1px 2px;
-    border: 2px solid #15dede;
-    border-radius: 62px;
-    margin: 0 8px;
-    font-size: 20px;
-    color: #3de1f0;
-    transition: 0.3s;
-  }
-  
-  .download-btn:hover {
-    background: #ca12c4;
-    color: #ffffff;
-  }
-  .contact__form {
-    background: #1a1a1a;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(255, 0, 230, 0.3);
-  }
-  
-  .contact__content {
-    margin-bottom: 1.5rem;
-  }
-  
-  .content__label {
-    display: block;
-    margin-bottom: 0.5rem;
-    color: #22a9b2;
-  }
-  
-  .contact__input {
-    width: 100%;
-    padding: 0.5rem;
-    border: none;
-    border-radius: 5px;
-    background: #333;
-    color: #fff;
-  }
-  
-  .button {
-    display: inline-block;
-    padding: 0.6rem 1.2rem;
-    background: #35bcc6;
-    color: #000;
-    font-weight: bold;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: 0.3s;
-  }
-  
-  .button:hover {
-    background: #71287c;
-    color: #f8f4f4;
-  }
-  
-  footer {
-    text-align: center;
-    color: #666;
-    font-size: 0.9rem;
-    margin-top: 2rem;
-  }
-  
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0f0f0f;
+  color: #e0e0e0;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #07e0f0;
+  display: block;
+  margin: 2rem auto;
+  box-shadow: 0 0 5px #21d2de;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #30dce8;
+  text-shadow: 0 0 3px #7bb9bd;
+}
+
+header p {
+  font-size: 1.1rem;
+  color: hsl(0, 5%, 70%);
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+nav a {
+  color: #00f0ff;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #eb2dd8;
+  text-shadow: 0 0 5px #fe00e4;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #b52ca7;
+  border-bottom: 2px solid #9d1690;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.project, .certification {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 5px rgba(0, 240, 255, 0.3);
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  background: #1f1f1f;
+  border-left: 4px solid #1bafb9;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+.cert-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+}
+
+
+.download-btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background: #151717;
+  color: #3bfff5;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.download-btn:hover {
+  background-color: #f800df;
+  color: #ffffff;
+  border-color: #f800df;
+  box-shadow: 0 0 10px rgba(248, 0, 223, 0.8);
+}
+
+/* 📬 Contact Form */
+.contact__form {
+  background: #1a1a1a;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 0, 230, 0.3);
+}
+
+.contact__content {
+  margin-bottom: 1.5rem;
+}
+
+.content__label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #22a9b2;
+}
+
+.contact__input {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  background: #333;
+  color: #fff;
+}
+
+/* Submit Button */
+.button {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background: #151717;
+  color: #00f7ff;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background: #f800df;
+  color: #ffffff;
+  box-shadow: 0 0 5px rgba(248, 0, 223, 0.8);
+}
+
+footer {
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
