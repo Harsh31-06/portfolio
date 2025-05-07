@@ -171,3 +171,23 @@ footer {
   font-size: 0.9rem;
   margin-top: 2rem;
 }
+.back-to-top {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.back-to-top .button {
+  background: #151717;
+  color: #00f7ff;
+  font-weight: bold;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.back-to-top .button:hover {
+  background: #f800df;
+  color: #ffffff;
+  box-shadow: 0 0 8px rgba(248, 0, 223, 0.8);
+}
